@@ -1,3 +1,20 @@
-body{
-	background-color: green;
+/* The animation code */
+@keyframes example {
+  0%   {background-color: red;}
+  10%  {background-color: yellow;}
+  20%  {background-color: blue;}
+  30% {background-color: purple;}
+	40%{background-color: #00FFBF;}
+	50%{background-color:#fa8072;}
+	60%{background-color: #E6E6FA;}
+	70%{background-color:  #5440cd;}
+	80%{background-color: #FFD700;}
+	90%{background-color: white;}
+	100%{background-color: #451208 ;}
+}
+
+/* The element to apply the animation to */
+body {
+  animation-name: example;
+  animation-duration: 4s;
 }
