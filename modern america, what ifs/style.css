@@ -1,0 +1,49 @@
+body {
+    font-family: Sans-serif;
+}
+
+#title {
+    text-align: center;
+    color: rgb(31,46,46);
+    text-decoration: underline;
+    font-size: 50px;
+    
+}
+#introduction{
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.button {
+  position: relative;
+  left: 35%;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50; 
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+#main {
+    margin-left: 5%;
+    font-size: 20px;
+    width: 50%;
+
+}
+
+#heading {
+    font-size: 25px;
+    text-decoration: underline;
+    color: rgb(31,46,46);
+}
+    
