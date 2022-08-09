@@ -1,0 +1,16 @@
+div{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:10%; top: 10%;}
+  25%  {background-color:yellow; left:90%; top:10%;}
+  50%  {background-color:blue; left:90%; top:90%;}
+  75%  {background-color:green; left:10%; top:90%;}
+  100% {background-color:red; left:10%; top:10%;}
+}
