@@ -15,7 +15,7 @@
 
 /* The element to apply the animation to */
 body {
-  animation-name: example;
-  animation-duration: 4s;
+  /*animation-name: example;*/
+  /*animation-duration: 4s;*/
   background-color:rgb(50,50,50);
 }
