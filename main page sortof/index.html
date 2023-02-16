@@ -1,0 +1,37 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>flash games</title>
+        <link rel="favicon/shortcut icon" type=".png" href="some guy.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="gameSelection.js"></script>
+    <script src="ruffle/ruffle.js"></script>
+    </head>
+    <body>
+        <div id="title bar">
+        <h1 style="float: right;">Games<span style="white-space:pre">	</span>Files<span style="white-space:pre">	</span>Search<span style="white-space:pre">	</span>Why does this exist</h1>
+            <hr>
+            <a href="search.html">search</a>
+    
+        </div>
+        
+        <!--input buttons-->
+     <button id="smaller" onclick="shrink()">-</button>   
+     <button id="larger" onclick="grow()">+</button>
+     <h5 id="size">size</h5>
+         <button id="submitBtn" onclick="submitSelection()"> submit </button>
+        <input type="text" id="gameInput" size="15">
+        <br />
+        <textarea type="text" id = "gameOutput" readOnly="True" style="resize:none; height:15px"></textArea>
+        <br>
+       
+       <embed id = "game" 
+        style="margin-left:10%; margin-top:50px"
+        src="load.png" 
+        width="296px"
+        height="306px"
+        >
+        <!--800x600-->
+               
+    </body> 
+</html>

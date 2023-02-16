@@ -1,0 +1,23 @@
+body
+{
+background-color: rgb(18,22,44);
+
+}
+hr{
+        color: rgb(28,76,194);
+    }
+
+h1{
+    color: rgb(54,62,122);
+}
+button
+{
+ 
+ background-color: brown;
+
+}
+button:hover{
+    cursor:grab;
+}
+
+
